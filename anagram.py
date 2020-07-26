@@ -27,7 +27,8 @@ def anagram2(s1,s2):
     for letter in new_s1:
         if letter in count:
             count[letter] += 1
-        else: count[letter] = 1
+        else: 
+            count[letter] = 1
 
     for letter in new_s2:
         if letter in count:
