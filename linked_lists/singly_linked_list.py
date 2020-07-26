@@ -1,9 +1,16 @@
-class Node(object):
+class LinkedListNode(object):
 
     def __init__(self,value):
 
         self.value = value
         self.nextnode = None
+
+a = LinkedListNode(1)
+b = LinkedListNode(2)
+c = LinkedListNode(3)
+
+a.nextnode = b
+b.nextnode = c
 
 def cycle_check(node):
 
